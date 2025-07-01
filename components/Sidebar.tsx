@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 const menuItems = [
   { label: "Dashboard", href: "/" },
-  // add more items later
+  // add more items later further steps
 ];
 
 export function Sidebar() {
