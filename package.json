@@ -1,0 +1,24 @@
+{
+  "name": "my-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.x",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next-auth": "^4.x",
+    "@prisma/client": "^4.x",
+    "prisma": "^4.x"
+  },
+  "devDependencies": {
+    "typescript": "^5.x",
+    "tailwindcss": "^3.x",
+    "postcss": "^8.x",
+    "autoprefixer": "^10.x"
+  }
+}
