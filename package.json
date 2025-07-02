@@ -8,17 +8,21 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "13.x",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "next-auth": "^4.x",
     "@prisma/client": "^4.x",
-    "prisma": "^4.x"
+    "bcrypt": "^6.0.0",
+    "next": "13.x",
+    "next-auth": "^4.x",
+    "prisma": "^4.x",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "typescript": "^5.x",
-    "tailwindcss": "^3.x",
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "24.0.10",
+    "@types/react": "19.1.8",
+    "autoprefixer": "^10.x",
     "postcss": "^8.x",
-    "autoprefixer": "^10.x"
+    "tailwindcss": "^3.x",
+    "typescript": "^5.x"
   }
 }
